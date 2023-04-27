@@ -12,6 +12,7 @@ def yes_no(question):
 
     else:
       print("please answer yes/no")
+      print()
 
 # main rountine goes here
 while True:
