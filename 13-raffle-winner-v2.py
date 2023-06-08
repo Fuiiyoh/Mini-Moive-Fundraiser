@@ -28,22 +28,5 @@ mini_movie_frame['Profit'] = mini_movie_frame['Ticket Price'] - 5
 # choose a winner from our name list
 winner = random.choice(all_names)
 
-# get position of winner in name list
-# win_index = all_names.index(winner)
-# look up total amount won (ticket price + surcharge)
-#total_won = mini_movie_frame.at[win_index, 'Total']
-
-# set index at the end
-
-#print(mini_movie_frame)
-
 # look up winner in panda and output their data
-
-#print("Value of row (d)")
-#print(mini_movie_frame.iloc[3])
-#print(mini_movie_frame['Name'])
-
 print(mini_movie_frame.loc[mini_movie_frame['Name'] == winner])
-
-#test = mini_movie_frame._get_value(win_index, 'Name')
-#print("test", test)
